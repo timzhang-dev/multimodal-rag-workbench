@@ -1,0 +1,13 @@
+boto3
+botocore
+pymupdf
+faiss-cpu
+numpy
+tqdm
+requests
+python-dotenv
+langchain-text-splitters
+tabula-py
+pandas
+pillow
+beautifulsoup4

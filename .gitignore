@@ -1,0 +1,16 @@
+.venv/
+.venv-mineru/
+.env
+.env.*
+
+.aws/
+
+data/
+
+*.pdf
+*.faiss
+*.pkl
+*.npy
+
+__pycache__/
+*.pyc
