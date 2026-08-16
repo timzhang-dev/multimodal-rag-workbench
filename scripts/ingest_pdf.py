@@ -234,14 +234,11 @@ def main():
         save_faiss_cache(index, items, metadata_path, index_path, current_metadata)
         logger.info("Saved FAISS cache: %s", index_path)
 
+    # Placeholder queries -- replace with questions about the configured PDF.
     queries = [
-        "What is the difference between droop speed control and isochronous speed control, and when is each mode typically used?",
-        "How is overspeed protection implemented, and what are the two independent electronic circuits responsible for shutting off fuel during an overspeed event?",
-        "According to the turbine speed pulse rate definition, what speed pickup output voltage and pickup gap are expected at full speed and at crank speed?",
-        "Explain how the Constant Settable Droop Speed/Load Control system works, including the roles of the inner speed control loop and the outer megawatt control loop.",
-        "Describe the signal flow shown in the Constant Settable Droop Speed/Load control diagram, including the roles of TNR, TNH, DWDROOP, DWATT, FSRN, and FSR.",
-        "What is the purpose of the Constant Settable Droop Anti-Windup logic, and under what operating conditions does it become active?",
-        "During a Trip to Island mode event, what sequence of events occurs when the tie-line breaker opens, and how does the gas turbine respond to maintain operation?",
+        "SAMPLE QUERY 1: ask a question answerable from the document text.",
+        "SAMPLE QUERY 2: ask a question answerable from a table in the document.",
+        "SAMPLE QUERY 3: ask a question about a diagram or figure in the document.",
     ]
 
     for query in queries:
