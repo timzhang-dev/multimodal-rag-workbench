@@ -159,16 +159,6 @@ scripts/
 
 ---
 
-## Current Limitations
-
-* Retrieval currently uses FAISS and is intended for prototype-scale datasets
-* Reranking has not yet been implemented
-* Contextual retrieval has not yet been implemented
-* Vision summaries have not yet been implemented
-* Retrieval has not yet been evaluated on large-scale manual collections
-* Multi-document production retrieval remains under development
-
----
 
 ## Current Roadmap
 
